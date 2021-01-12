@@ -1,0 +1,14 @@
+broke
+cat.txt
+Functions.c
+Functions.h
+hp.txt
+Makefile
+mush
+mush.c
+ot.txt
+out.tt
+out.txt
+pp.txt
+README
+simple-shell.c

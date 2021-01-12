@@ -1,0 +1,10 @@
+Functions.c
+Functions.h
+hp.txt
+Makefile
+mush
+mush.c
+out.txt
+pp.txt
+README
+simple-shell.c

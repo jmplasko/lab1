@@ -1,0 +1,3 @@
+ls | sort -r &
+ls | sort -r
+sort < Functions.c > out.txt

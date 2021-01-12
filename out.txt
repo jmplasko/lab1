@@ -1,0 +1,835 @@
+            }
+          }
+          }
+          }
+          }
+          
+        }
+        }
+        }
+        }
+        }
+        
+      }*/
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      }
+      
+      
+      
+      
+      
+      
+      
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+    }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+	  }
+	  }
+	  }
+	  }
+	  }
+	  }
+	  }
+	  }
+	}
+	}
+	}
+	}
+	}
+		  }
+		  }
+		  }
+		  }
+		  }
+		  }
+		  }
+		  }
+		  }
+		  }
+		  }
+		  }
+		}
+		}
+		}
+		}
+		}
+			  }
+			  }
+			  }
+			}
+			}
+			}
+			}
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	3 larger to account for newline character,
+  /*action.sa_flags = SA_RESETHAND;*/
+  action.sa_handler = sigintHandler;
+  action.sa_handler = sigintHandler;
+    /* Add our token to our array */
+  /* Add SIGINT to our set */
+  and returns an int representing the number of tokens found */
+      argcpipe++; /*Increment arguments in pipe counter */
+        arginc = 0; /* Reset our arguments in command counter */
+        arginc--; /*Decrement arginc as we do not count this as an argument*/
+        arginc--; /*Decrement arginc as we do not count this as an argument*/
+      arginc++; /*Increment arguments in command */
+    arguments[0] = NULL;
+          arguments[i] = NULL;
+        arguments[i] = NULL;
+        arguments[i] = NULL;
+			  arguments[i] = NULL;
+	arguments[i] = NULL;
+	/* Array to hold our input line
+  /* async safe print to stdout */
+  /*At the end, all our flags should be 0, otherwise we have an error */
+  char arguments[256][LINEMAX+1];
+	char arguments[256][LINEMAX + 1];
+  char cmd[LINEMAX+1];
+  char directorypath[LINEMAX+3] = {0};
+  char* holdargv[256] = { NULL };
+  char in_filename[512] = {0};
+	char input[BUFFERSIZE] = { 0 };
+  char line[LINEMAX+1];
+  char *newlinecheck = NULL;
+  char out_filename[512] = {0};
+  char* parsed[256] = {NULL};
+  char* passed_in[256] = { NULL };
+	char* passed_in[256] = { NULL };
+  char *token;
+      /* Check for forking error */
+  /* Check our arguments */
+  /* Check our arguments */
+/* Checks for specific commands in input */
+	/* Check their exit status */
+        /* Child */
+      /* Child */
+		  /* Child */
+      chit++;
+      /* Close input and output file descriptors */
+		  /* Close input and output file descriptors */
+        close(input_fd);
+    /*close(input_fd);*/
+			  close(input_fd);
+        /* Close our pipe fd */
+  /* Close our pipe file descriptors */
+        close(output_fd);
+    close(output_fd);*/
+			  close(output_fd);
+	close(pp[i][0]);
+    close(pp[i][1]);
+		  close(pp[j][0]);
+          close(pp[j][1]);
+      close(saved_stdin);
+		  close(saved_stdin);
+close(saved_stdin);
+      close(saved_stdout);
+		  close(saved_stdout);
+close(saved_stdout);
+      cmd_f = 1; /* Set cmd_f for error handling purposes */
+      cmd_f = 1; /* Set cmd_f for error handling purposes */
+      cmd_f = 1; /* Set cmd_f for error handling purposes */
+	  concurrent = 1;
+      continue;
+      continue;
+      continue_prompting = 0;
+/* Continue prompting for input */
+      continue_prompting = prompt_user();
+	  /* Copy over our input */
+	  /* Copy over our input */
+	  /* Copy over our input */
+	  /* Copy over our input */
+      /* Copy over stage arguments */
+        /* Correctly processed so we... */
+        /* Correctly processed so we... */
+        /* Correctly processed, so we... */
+  /* Create our pipes */
+	/* CTRL - D? */
+  do{
+          /* Do our Plumbing */
+          /* Do our Plumbing */
+          /* Do our Plumbing */
+            dup2(input_fd, STDIN_FILENO);
+        dup2(input_fd, STDIN_FILENO);
+			  dup2(input_fd, STDIN_FILENO);
+            dup2(output_fd, STDOUT_FILENO);
+        dup2(output_fd, STDOUT_FILENO);
+			  dup2(output_fd, STDOUT_FILENO);
+          dup2(pp[chit-1][0], STDIN_FILENO);
+          dup2(pp[chit-1][0], STDIN_FILENO);
+          dup2(pp[chit][1], STDOUT_FILENO);
+          dup2(pp[chit][1], STDOUT_FILENO);
+      dup2(saved_stdin, STDIN_FILENO);
+		  dup2(saved_stdin, STDIN_FILENO);
+				dup2(saved_stdin, STDIN_FILENO);
+				dup2(saved_stdin, STDIN_FILENO);
+      dup2(saved_stdout, STDOUT_FILENO);
+		  dup2(saved_stdout, STDOUT_FILENO);
+				dup2(saved_stdout, STDOUT_FILENO);
+				dup2(saved_stdout, STDOUT_FILENO);
+        }else{
+        }else{
+      else{
+      else{
+      else{
+      else{
+     }else{
+    }else{
+    else{
+    else{
+    else{
+    else{
+  else {
+  else {
+	  else {
+		  else {
+	else {
+      else if ( items == 1 )
+    else if (left == 1){
+  else if ( next_is_output == 1 ){
+  }else if(pipes == 0){
+        }else if (pipestage == pipes){
+  else if ( previous_is_pipe == 1 ){
+  else if(strcmp(arguments[0], "exit") == 0){
+    else if(strcmp(arguments[i], "<") == 0)
+    else if(strcmp(arguments[i], ">") == 0)
+      else if ( token[0] == '>' ){
+      else if ( token[0] == '|' ){
+    else if ( token[0] == '>' ){
+    else if ( token[0] == '|' ){
+      else if ( ( token[0] == '>' ) || ( token[0] == '|' ) || output_f == 1){
+      /* Error handling */
+      /* Error handling */
+      /* Error handling */
+      /* Error handling */
+      /*Error handling */
+    /* Error handling */
+      /* Error Handling */
+        /* Execute our arguments */
+      /* Execute our arguments */
+  /* Execute our arguments */
+		  /* Execute our arguments */
+/* Executes our arguments */
+		exit(0);
+        exit(1);
+			  exit(1);
+              exit(3);
+            exit(3);
+            exit(3);
+          exit(3);
+          exit(3);
+      exit(3);
+				  exit(3);
+				  exit(3);
+				exit(3);
+        exit(4);
+			  exit(4);
+  /* Exit command */
+        exit(EXIT_FAILURE);
+        exit(EXIT_FAILURE);
+    exit(EXIT_FAILURE);
+			  exit(EXIT_FAILURE);
+    /* Exit program */
+        fflush(stdout);
+  fflush(stdout);
+	  fflush(stdout);
+	  fflush(stdout);
+	  fflush(stdout);
+	  fflush(stdout);
+		  fflush(stdout);
+		  fflush(stdout);
+			  fflush(stdout);*/
+		fflush(stdout);*/
+		fflush(stdout);*/
+		fflush(stdout);
+	fflush(stdout);
+	fgets(input, BUFFERSIZE, stdin);
+  /* Flags to indicate an input and output was set or
+  /* flag to indicate the previous token was a pipe */
+  /* flag used to output correct command to stderr */
+/* For each child... */
+	  for (i = 0; i < itemsHistory; i++) {
+	  for (i = 0; i < itemsHistory; i++) {
+      for ( i=0; i<items; i++){
+      for ( i=0; i<items; i++){
+      for (i = 0; i < items; i++){
+  for(i = 0; i < items; i++){
+	  for (i = 0; i < items; i++) {
+	  for (i = 0; i < items; i++) {
+		  for (i = 0; i < items; i++) {
+for (i = 0; i <= items; i++) {
+  for(i = 0; i < (parsed_items+1); i++){
+      for(i = 0; i <= parsed_items; i++){
+		  for (i = 0; i <= parsed_items; i++) {
+for (i = 0; i <= parsed_items; i++) {
+	  for (i = 0; i < (pipes + 1); i++) {
+for (i = 0; i < (pipes + 1); i++) {
+  for(i = 0; i < pipes; i++){
+  for(i = 0; i < pipes; i++){
+        for(j = 0; j < pipes; j++){
+      for(k = 0; k < trackerarg; k++){
+        fprintf(stderr, "Invalid null command\n");
+    fprintf(stderr, "Invalid null command\n");
+      fprintf(stderr, "Pipeline too deep\n");
+        fprintf(stderr, "%s: Ambiguous input\n", cmd);
+        fprintf(stderr, "%s: Ambiguous output\n", cmd);
+        fprintf(stderr, "%s: Bad input redirecion\n", cmd);
+        fprintf(stderr, "%s: Bad input redirecion\n", cmd);
+        fprintf(stderr, "%s: Bad input redirecion\n", cmd);
+    fprintf(stderr, "%s: Bad input redirecion\n", cmd);
+        fprintf(stderr, "%s: Bad output redirecion\n", cmd);
+        fprintf(stderr, "%s: Bad output redirecion\n", cmd);
+    fprintf(stderr, "%s: Bad output redirecion\n", cmd);
+		fprintf(stderr, "%s, File name too long\n", input);
+    fprintf(stderr, "%s: File name too long\n", script_line);
+        fprintf(stderr, "%s: missing argument.\n", arguments[0]);
+        fprintf(stderr, "%s: too many arguments.\n", arguments[0]);
+      fprintf(stderr, "Too many arguments\n");
+    free(arguments[0]);
+          free(arguments[i]);
+        free(arguments[i]);
+        free(arguments[i]);
+			  free(arguments[i]);
+	free(arguments[i]);
+        free(holdargv[k]);
+      /* Freeing stage arguments */
+      /* Free our arguments */
+/* Free our arguments */
+		  /* Free our arguments */
+      /* Free our parsed items */
+		  /* Free our parsed items */
+        free(parsed[i]);
+			  free(parsed[i]);
+	free(parsed[i]);
+	/* Get our input from the user */
+    /* Get our next token */
+        holdargv[k] = NULL;
+      holdargv[trackerarg] = safe_malloc(strlen(parsed[i])+1);
+		  if ((-1) == waitpid(chi[i], &status, 0)) {
+      /*if ( (-1) == waitpid(child, &status, 0) ) {
+		  if ((-1) == waitpid(child, &status, 0)) {
+      if ( 2 < items )
+    if ( argcpipe > PIPELINEMAX ){
+    if ( arginc == 0 && cmd_f == 0)
+    if ( arginc > ARGUMENTSMAX ){
+    /* If arguments in command exceed the max, exit */
+    /* If arguments in pipe exceed the max, exit */
+      if (chdir(directorypath) != 0){
+      if(chi[chit] == (-1)){
+      if((chi[chit] = fork()) == 0){
+      if ( child == -1 ){
+		  if (child == -1) {
+    if ( ( child = fork() ) ){
+	  if ((child = fork())) {
+  if (concurrent != 1) {
+          if(execlp(holdargv[0],holdargv[0], NULL) == -1){
+          if(execvp(holdargv[0],holdargv) == -1){
+      if (execvp(parsed[0], parsed) == -1){
+		  if (execvp(parsed[0], parsed) == -1) {
+	if (feof(stdin)) {
+		if (i == 0) {
+		if (i == 0) {
+            if ((input_fd = open(in_filename, O_RDONLY)) < 0){
+        if ((input_fd = open(in_filename, O_RDONLY)) < 0){
+			  if ((input_fd = open(in_filename, O_RDONLY)) < 0) {
+          if (input_flag == 1){
+      if (input_flag == 1){
+      if (input_flag == 1){
+  if (input_flag == 1){
+		  if (input_flag == 1) {
+		  if (input_flag == 1) {
+			if (input_flag == 1) {
+			if (input_flag == 1) {
+	if (input[LINEMAX + 1] != '\0') {
+		if (i == pipes) {
+		if (i == pipes) {
+    if ((isatty(STDOUT_FILENO) == 1) && (isatty(STDIN_FILENO) == 1)){
+  if (items == 0){
+	if (items == 0) {
+    if ( items != 2 ){
+  /* If necessary, close the output file descriptor */
+  /* If necessary, close the output file descriptor */
+  if (newlinecheck != NULL){
+    if ( next_is_input == 1 ){
+  if ( next_is_input == 1 ){
+    if ( next_is_output == 1 ){
+  if (NULL == (new=malloc(size))){
+    /* If our current token is a < */
+    /* If our current token is a > */
+    /* If our current token is a | */
+  /*If our first argument is cd */
+  /* If our string is over LINEMAX, EXIT*/
+	/* If our string is over LINEMAX, EXIT*/
+      if ( output_f == 1 ){
+              if (output_fd < 0){
+        if ((output_fd = open(out_filename, O_WRONLY | O_CREAT | O_TRUNC,
+			  if ((output_fd = open(out_filename, O_WRONLY | O_CREAT | O_TRUNC,
+          if (output_flag == 1){
+      if (output_flag == 1){
+      if(output_flag == 1){
+  if(output_flag == 1){
+		  if (output_flag == 1) {
+		  if (output_flag == 1) {
+			if (output_flag == 1) {
+			if (output_flag == 1) {
+      if ( pipe_f == 1 ){
+    if(pipe(pp[i])){
+  if((pipes == 0) && concurrent == 1){
+        if(pipestage == 0){
+    if ( previous_is_pipe == 1 ){
+    if (right == 1){
+  if ( script_line[LINEMAX+1] != '\0' ){
+  if (strcmp(arguments[0], "!!") == 0) {
+	if (strcmp(arguments[0], "!!") == 0) {
+  if (strcmp(arguments[0], "cd") == 0){
+	  if (strcmp(argumentsHistory[0], "") == 0) {
+		if (strcmp(argumentsHistory[0], "") == 0){
+      if(strcmp(arguments[i], "|") == 0)
+  if (strcmp(arguments[items - 1], "&") == 0) {
+    if((strcmp(parsed[i], "|") == 0) || (strcmp(parsed[i],"\0\0") == 0)){
+    /* If this token is going to be processed as an input */
+    /* If this token is going to be processed as an output */
+      if ( token[0] == '<' ){
+      if ( token[0] == '<' ){
+    if ( token[0] == '<' ){
+      if ( ( token[0] == '<' )  || ( token[0] == '>' )
+        if(trackerarg == 1){
+        /* If we are at any other stage...*/
+        /* If we are at the final stage */
+        /* If we're at stage zero */
+  if we're in a pipe, used for error handling */
+      /* If we successfully exited the child*/
+		  /* If we successfully exited the child*/
+		/* If we successfully exited the child*/
+      /* If we unsuccessfully exited the child */
+		  /* If we unsuccessfully exited the child */
+		/* If we unsuccessfully exited the child*/
+	if (!WIFEXITED(status) || WEXITSTATUS(status)) {
+      if ( WIFEXITED(status) && (WEXITSTATUS(status) == 0)
+		  if (WIFEXITED(status) && (WEXITSTATUS(status) == 0)
+#include "Functions.h"
+    /* Indicate our next argument is the in_file */
+    /* Indicate our next argument is the out_file */
+  /* Initialize our sigaction */
+        input_f = 1; /* Set our input flag */
+      input_flag = 1;
+	input[newline_index] = '\0';
+  /* input/output flags to indicate the next token is an input/output */
+          /* Input Redirection, if necessary */
+      /* Input Redirection, if necessary */
+		  /* Input Redirection, if necessary */
+      /*Install interrupt*/
+		  /*Install interrupt*/
+  int chit = 0;
+  int cmd_f = 0;
+int command_checker(char *arguments[], int items){
+  int concurrent = 0;
+  int continue_prompting;
+int execute_commands(char *arguments[], int items){
+  int i;
+  int i;
+	int i;
+  int input_f = 0, output_f = 0, pipe_f = 0;
+  int input_fd = 0, output_fd = 0;
+  int input_flag = 0, output_flag = 0;
+int interpret_script(char script_line[BUFFERSIZE]){
+  int items = 0;
+	int items = 0;
+  int items = 0, arginc = 0, argcpipe = 1;
+  int k = 0, pipestage = 0;
+  int newline_index;
+	int newline_index;
+  int next_is_input = 0, next_is_output = 0;
+  int parsed_items = 0;
+  int pipes = 0, left = 0, right = 0;
+  int pp[10][2];
+  int previous_is_pipe = 0;
+int prompt_user() {
+  int saved_stdin = dup(STDIN_FILENO);
+  int saved_stdout = dup(STDOUT_FILENO);
+  int status, i, j;
+int tokenize(char arguments[256][LINEMAX+1], char *input){
+  int trackerarg = 0;
+		  itemsHistory = items;
+		  itemsHistory = items;
+	  items = items - 1;
+	items = tokenize(arguments, input);
+  items = tokenize(arguments, script_line);
+      left = 0;
+      left = 1;
+  /* malloc returns a NULL pointer upon failure
+  memset(&action, 0, sizeof(action));
+  memset(&action, 0, sizeof(action));
+		  memset(argumentsHistory[i], '\0', LINEMAX + 1);
+		  memset(argumentsHistory[i], '\0', LINEMAX + 1);
+		  memset(arguments[i], '\0', LINEMAX + 1);
+		  memset(arguments[i], '\0', LINEMAX + 1);
+        memset(in_filename, '\0', 512);
+    memset(in_filename, '\0', 512);
+			  memset(in_filename, '\0', 512);
+		memset(input, '\0', LINEMAX + 3);
+        memset(out_filename, '\0', 512);
+    memset(out_filename, '\0', 512);
+			  memset(out_filename, '\0', 512);
+      /* Move on to the next stage */
+  newlinecheck = strchr(script_line, '\n');
+	newline_index = (int)strlen(input) - 1;
+    newline_index = (int) strlen(script_line) - 1;
+        next_is_input = 0; /* Indicate that the next token isn't an input */
+      next_is_input = 1; /* Indicate the next token is an input */
+        next_is_output = 0; /* Indicate that the next token isn't an output */
+      next_is_output = 1; /* Indicate the next token is an output */
+  /* No Input Case */
+	/* No Input Case */
+  /* No Pipes */
+  /* not really necessary but we're too far in to fix this */
+	null character from fgets, and error handling purposes */
+  /* num of tokens, args in command, and args in pipe; respectively */
+  /* Our number of tokens and the index of the newline character */
+	/* Our number of tokens and the index of the newline character */
+    /* Our previous token was a pipe! */
+  /* Our shell loop */
+    /* Our token is a string */
+        output_f = 1; /* Set our output flag */
+			  output_fd = creat(out_filename, S_IRUSR | S_IWUSR);
+      output_flag = 1;
+          /* Output Redirection, if necessary */
+      /* Output Redirection, if necessary */
+		  /* Output Redirection, if necessary */
+      /* Parent */
+  /* Parent */
+		  /* Parent */
+        parsed[i] = NULL;
+			  parsed[i] = NULL;
+	parsed[i] = NULL;
+      parsed_items++;
+      parsed_items = 0;
+		  parsed_items = 0;
+  parsed[parsed_items] = safe_malloc(sizeof(char));
+      parsed[parsed_items] = safe_malloc(strlen(arguments[i]) +1);
+  /* Parse our arguments */
+		  passed_in[i] = safe_malloc(strlen(argumentsHistory[i]) + 1);
+		  passed_in[i] = safe_malloc(strlen(argumentsHistory[i]) + 1);
+		  passed_in[i] = safe_malloc(strlen(arguments[i]) + 1);
+		  passed_in[i] = safe_malloc(strlen(arguments[i]) + 1);
+        perror(arguments[1]);
+        perror("fork");
+        perror("fork");
+			  perror("fork");
+            perror(holdargv[0]);
+            perror(holdargv[0]);
+              perror(in_filename);
+          perror(in_filename);
+				  perror(in_filename);
+				perror(in_filename);
+          perror(out_filename);
+				  perror(out_filename);
+        perror(parsed[0]);
+			  perror(parsed[0]);
+      perror("pipe");
+    perror("safe_malloc: malloc failure");
+			  perror("wait");
+  pid_t chi[10] = {0};
+  pid_t child;
+        pipe_f = 1; /* Indicate that we are now in a pipe */
+  /* Pipe processes */
+        pipes++;
+      pipestage++;
+        previous_is_pipe = 0; /* Indicate that current token isn't an pipe */
+      previous_is_pipe = 1; /*Indicate that our previous token was a pipe */
+	  printf("Echo: ");
+		printf("Echo: ");
+	  /*printf("j%i", output_fd);
+	  printf("\n");
+	  printf("\n");
+		  printf("No commands in history\n");
+			printf("No commands in history\n");
+	printf("osh>");
+		/*printf("Process %d exited with an error value.\n", chi[i]);
+        printf("Process %d exited with an error value.\n", child);
+			  /*printf("Process %d exited with an error value.\n", child);
+		/*printf("Process %d succeeded.\n", chi[i]);
+		  printf("%s ", argumentsHistory[i]);
+		  printf("%s ",argumentsHistory[i]);
+/* Prompts the user for arguments */
+  /* Removes newline character from our input */
+	/* Removes newline character from our input */
+        /* Reset Interrupt Signal */
+  /* Reset SIGINT */
+      /* Reset stage argument counter */
+      /* Restore STDIN and/or STDOUT */
+		  /* Restore STDIN and/or STDOUT */
+		/* Restore STDIN if necessary */
+		/* Restore STDIN if necessary */
+		/* Restore STDOUT if necessary */
+		/* Restore STDOUT if necessary */
+        return 0;
+        return 0;
+        return 0;
+        return 0;
+        return 0;
+        return 0;
+        return 0;
+        return 0;
+      return 0;
+      return 0;
+    return 0;
+    return 0;
+    return 0;
+    return 0;
+        return 1;
+        return 1;
+      return 1;
+      return 1;
+    return 1;
+    return 1;
+	  return 1;
+		  return 1;
+			  return 1;
+			  return 1;
+			return 1;
+		return 1;
+return 1;
+    return 1; /*Empty Input */
+		return 1; /*Empty Input */
+  return command_checker(passed_in, items);
+  return command_checker(passed_in, items);
+	  return command_checker(passed_in, items);
+	  return command_checker(passed_in, itemsHistory);
+	  return command_checker(passed_in, itemsHistory);
+  return execute_commands(arguments, items);
+  return items;
+  return new;
+  /* Returns a pointer with no associated data type */
+  /* Return tne number of tokens processed */
+      right = 0;
+      right = 1;
+/* Safe Malloc */
+    script_line[newline_index] = '\0';
+  /* Set our interrupt signal */
+    /* Sets the cmd string for error handling purposes for stage 0*/
+    /* Sets the in_file if specified */
+    /* Sets the out_file if specified */
+/* Shell Initializer */
+      sigaction(SIGINT, &action, NULL);
+  sigaction(SIGINT, &action, NULL);
+  sigaction(SIGINT, &action, NULL);
+		  sigaction(SIGINT, &action, NULL);
+  sigaddset(&set, SIGINT);
+  sigemptyset(&set);
+/* Signal Handler */
+      sigprocmask(SIG_BLOCK, &set, NULL);
+    sigprocmask(SIG_BLOCK, &set, NULL);
+	  sigprocmask(SIG_BLOCK, &set, NULL);
+        sigprocmask(SIG_UNBLOCK, &set, NULL);
+      sigprocmask(SIG_UNBLOCK, &set, NULL);
+      sigprocmask(SIG_UNBLOCK, &set, NULL);
+  sigprocmask(SIG_UNBLOCK, &set, NULL);
+		  sigprocmask(SIG_UNBLOCK, &set, NULL);
+		  sigprocmask(SIG_UNBLOCK, &set, NULL);
+  sigset_t set;
+                              S_IRUSR | S_IWUSR))<0){
+				  S_IRUSR | S_IWUSR)) < 0) {
+/* Slices our input string into tokens, stores the tokens in an array
+  static char argumentsHistory[256][LINEMAX + 1];
+	static char argumentsHistory[256][LINEMAX + 1];
+  static int itemsHistory = 0;
+	static int itemsHistory = 0;
+  /* Stores our input string, to be tokenized*/
+  /* Stores the command string displayed in error messages*/
+      strcat(directorypath, arguments[1]);
+		  strcpy(argumentsHistory[i], arguments[i]);
+		  strcpy(argumentsHistory[i], arguments[i]);
+    strcpy(arguments[items++], token);
+      strcpy(cmd, token);
+      strcpy(cmd, token); /* Reset our cmd string for error handling */
+      strcpy(directorypath, "./");
+      strcpy(holdargv[trackerarg], parsed[i]);
+      strcpy(in_filename, arguments[i]);
+  strcpy(line, input); /* strtok is destructive so we make a copy */
+      strcpy(out_filename, arguments[i]);
+  strcpy(parsed[parsed_items], "\0");
+      strcpy(parsed[parsed_items], arguments[i]);
+		  strcpy(passed_in[i], argumentsHistory[i]);
+		  strcpy(passed_in[i], argumentsHistory[i]);
+		  strcpy(passed_in[i], arguments[i]);
+		  strcpy(passed_in[i], arguments[i]);
+  struct sigaction action;
+  struct sigaction action;
+    This checks for failure. */
+  /* Token */
+        || ( token[0] == '|' ) || ( input_f == 1) ){
+  /* Tokenize our input */
+  /*Tokenize our input and acquire the number of items inputted*/
+	/*Tokenize our input and acquire the number of items inputted*/
+  token = strtok(line, " "); /* Split by spaces */
+    token = strtok(NULL, " ");
+      trackerarg++;
+      trackerarg = 0;
+      /* Unblock Interrupt Signal */
+		  /* Unblock Interrupt Signal */
+  /* Used for iterating */
+	/* Used for iterating */
+  void *new;
+void run_mush(){
+void *safe_malloc(size_t size){
+void sigintHandler(int sig_num){
+  /* Wait for each child*/ 
+      /* Wait for our child */
+		  /* Wait for our child */
+  }while(continue_prompting);
+  while ( token != NULL ){
+  /* While we still have tokens */
+          && !WIFSIGNALED(status)){
+			  && !WIFSIGNALED(status)) {
+  /* Will eventually hold our tokens */
+	/* Will eventually hold our tokens */
+  write(STDOUT_FILENO, "\n", 1);

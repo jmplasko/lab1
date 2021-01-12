@@ -1,0 +1,5 @@
+Name: James Plasko (jplasko) Jesus Blanco (jblanc01)
+Compile: make
+Run: ./mush [ script file ]
+To Know: Runs with no errors and Valgrind shows complete freeing of allocated memory.
+Compiling with -Wall and -Pedantic gives no errors, once -ansi is included it gives errors for signal.h for references to signal.h. However when you compile with -ansi and -D_POSIX_C_SOURCE it gives no errors.
